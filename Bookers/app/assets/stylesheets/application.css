@@ -33,8 +33,12 @@ header {
 	margin-top: 30px;
 }
 
+p {
+  font-size: 13px;
+}
+
 .title {
-  font-size: 2em;
+  font-size: 24px;
 }
 
 .header-content {
@@ -45,4 +49,43 @@ header {
 
 .content {
   margin: 10px 30px
+}
+
+.success-text {
+  color: green;
+  font-size: 13px;
+}
+
+.index-wrapper {
+  margin: 30px 30px;
+}
+
+.books-content {
+  font-size: 13px;
+  line-height: 18px;
+}
+
+.th-title {
+  display: block;
+  text-align: center;
+}
+
+.book-wrapper {
+  margin: 30px 50px;
+  line-height: 300%;
+  font-size: 13px;
+}
+
+.edit-wrapper {
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.edit-title {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.edit-submit {
+  margin-bottom: 10px;
 }

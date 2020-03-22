@@ -1,4 +1,10 @@
-<p><strong>Title:</strong><%= @book.title %></p>
-<p><strong>Body:</strong><%= @book.body %></p>
-<%= link_to "Edit", edit_book_path(@book) %>
-<%= link_to "Back", books_path %>
+<% if flash[:notice] %>
+	<p class="success-text"><%= flash[:notice] %></p>
+<% end %>
+
+<div class="book-wrapper">
+	<p><strong>Title:</strong><%= @book.title %></p>
+	<p><strong>Body:</strong><%= @book.body %></p>
+	<%= link_to "Edit", edit_book_path(@book) %> |
+	<%= link_to "Back", books_path %>
+</div>
